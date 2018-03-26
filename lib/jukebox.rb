@@ -59,9 +59,10 @@ def play(my_songs)
   song = gets.chomp
   if my_songs.include?(song)
     puts "Playing #{song}"
+  else
+    puts "Invalid input, please try again"
   end
-  puts "Playing <song name>"
-  puts "Invalid input, please try again"
+  
 end
 
 def exit_jukebox
