@@ -79,6 +79,7 @@ def run(my_songs)
   flag = true
   while flag
     case (input)
+      when 
   end
   
   
