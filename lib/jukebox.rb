@@ -87,6 +87,7 @@ def run(my_songs)
         flag = false
       when "help"
         help
+      end
   end
   
   
