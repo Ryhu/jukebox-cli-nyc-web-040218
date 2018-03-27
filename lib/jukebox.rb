@@ -60,7 +60,7 @@ def play(my_songs)
   if my_songs.include?(song)
     puts "Playing #{song}"
   elsif song.length == 1 && song.to_i < my_songs.length-1
-    puts "Playing #{my_songs[song - 1]}"
+    puts "Playing #{my_songs[song.to_i - 1]}"
     
   else
     puts "Invalid input, please try again"
