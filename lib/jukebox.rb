@@ -78,7 +78,7 @@ def run(my_songs)
   input = gets.chomp
   flag = true
   while flag
-    
+    case (input)
   end
   
   
