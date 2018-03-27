@@ -75,9 +75,9 @@ end
 def run(my_songs)
   help
   puts "Please enter a command:"
-  input = gets.chomp
   flag = true
   while flag
+    input = gets.chomp
     case (input)
       when "list"
         list(songs)
