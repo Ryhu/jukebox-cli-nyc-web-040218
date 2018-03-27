@@ -84,6 +84,7 @@ def run(my_songs)
       when "play"
         play(songs)  
       when "exit"
+        exit_jukebox
         flag = false
       when "help"
         help
