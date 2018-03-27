@@ -79,14 +79,14 @@ def run(my_songs)
   flag = true
   while flag
     case (input)
-    when "list"
-      list(songs)
-    when "play"
-      play(songs)  
-    when "exit"
-      flag = false
-    when "help"
-      help
+      when "list"
+        list(songs)
+      when "play"
+        play(songs)  
+      when "exit"
+        flag = false
+      when "help"
+        help
     end
   end
   
