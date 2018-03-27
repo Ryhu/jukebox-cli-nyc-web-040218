@@ -75,4 +75,5 @@ end
 def run(my_songs)
   help
   puts "Please enter a command:"
+  input = gets.comp
 end
