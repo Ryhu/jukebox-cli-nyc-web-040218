@@ -80,6 +80,7 @@ def run(my_songs)
   while flag
     case (input)
       when "list"
+        list(songs)
   end
   
   
