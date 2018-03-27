@@ -83,6 +83,8 @@ def run(my_songs)
         list(songs)
       when "play"
         play(songs)  
+      when "exit"
+        flag = false
   end
   
   
