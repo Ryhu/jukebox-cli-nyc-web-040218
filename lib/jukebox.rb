@@ -81,6 +81,8 @@ def run(my_songs)
     case (input)
       when "list"
         list(songs)
+      when "play"
+        play(songs)  
   end
   
   
