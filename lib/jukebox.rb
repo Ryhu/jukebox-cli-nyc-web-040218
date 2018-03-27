@@ -86,7 +86,7 @@ def run(my_songs)
       when "exit"
         flag = false
       when "help"
-        help
+        
       end
   end
   
