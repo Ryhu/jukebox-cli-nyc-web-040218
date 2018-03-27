@@ -59,7 +59,7 @@ def play(my_songs)
   song = gets.chomp
   if my_songs.include?(song)
     puts "Playing #{song}"
-  elsif song.is_a?(Integer) && song < my_songs.length-1
+  elsif song.length == 1 && song.to_i < my_songs.length-1
     puts "Playing #{my_songs[song - 1]}"
     
   else
