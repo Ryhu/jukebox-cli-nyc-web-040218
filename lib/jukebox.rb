@@ -77,7 +77,9 @@ def run(my_songs)
   puts "Please enter a command:"
   input = gets.chomp
   flag = true
-  
+  while flag
+    
+  end
   
   
 end
